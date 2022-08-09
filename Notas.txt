@@ -1,0 +1,15 @@
+Que NO es NODE JS:
+
+- Lenguaje de programación
+- Función
+- Extensión
+- Libreria
+- Framework
+- JavaScript en el servidor
+- Interprete
+
+SI ES:
+Entorno de ejecución de JavaScript fuera del navegador.
+- Interprete: V8 de Google Chrome
+- Libreria de codigo asincrono: LIBUV
+- Más codigo en c y en el propio JavaScript
