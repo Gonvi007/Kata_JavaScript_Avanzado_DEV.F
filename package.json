@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/Gonvi007/Kata_JavaScript_Avanzado_DEV.F#readme",
   "dependencies": {
-    "nodemon": "^2.0.19"
+    "nodemon": "^2.0.19",
+    "xmlhttprequest": "^1.8.0"
   }
 }
