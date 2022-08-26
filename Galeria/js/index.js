@@ -7,10 +7,11 @@ const galleryContainer = d.getElementById('gallery-container')
 
 const url_base = "https://picsum.photos/v2/list"
 
-const printGallery = () => {
+const printGallery = (imagen) => {
     const div = d.createElement('div')
     div.classList.add("grid-item")
     
+    div.style.backgroundImage = `url(${imagen})`
     galleryContainer.appendChild(div)
 }
 printGallery();
@@ -19,8 +20,9 @@ const getImages = async () => {
     const response = await fetch(url_base)
     const data = await response.json()
 
+    console.log(data);
     data.forEach(element => {
-        printGallery();
+        printGallery(element.download_url);
     });
 }
 getImages();

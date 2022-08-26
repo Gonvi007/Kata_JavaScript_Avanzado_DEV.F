@@ -66,7 +66,7 @@ const postData = (task) => {
 }
 // crear la logica como te imagines que tiene que ser para editar una tarea
 const putData = () => {
-  return fetch(url + '/' + id, {
+  return fetch(`${url_base}/${id}`, {
     method: 'PUT',
     headers: {
       'Content-Type': 'application/json'
